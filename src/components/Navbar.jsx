@@ -6,7 +6,7 @@ const Navbar = () => {
         {/* Logo */}
         <a href="#" className="font-bold italic text-gray-600 text-xl z-20">Nike Smith</a>
         {/* Navigation */}
-        <div className="cursor-pointer flex gap-x-7 trxt-xs font-medium text-gray-600">
+        <div className="cursor-pointer flex gap-x-7 trxt-xs font-medium text-gray-600 sm:hidden">
             <a href="#" className="hover:underline">Home</a>
             <a href="#" className="hover:underline">About</a>
             <a href="#" className="hover:underline">Skills</a>
@@ -14,7 +14,7 @@ const Navbar = () => {
             <a href="#" className="hover:underline">Contact</a>
         </div>
         {/* Hamburger */}
-        <div className="hidden cursor-pointer text-gray-600 text-2xl">
+        <div className="hidden sm:block cursor-pointer text-gray-600 text-2xl">
             <FiAlignRight/>
         </div>
     </nav>
