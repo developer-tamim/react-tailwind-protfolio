@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Apple Products",
+    "video": "https://www.youtube.com/watch?v=PUw285Xaee4&t=76s",
+    "code": "https://github.com/lashaNoz/appleProducts"
+  },
+  {
+    "id": 2,
+    "name": "Car Rental Landing",
+    "video": "https://www.youtube.com/watch?v=J8zgVcWNmrA&t=34s",
+    "code": "https://github.com/lashaNoz/carRentalApp"
+  },
+  {
+    "id": 3,
+    "name": "Circular Slide",
+    "video": "https://www.youtube.com/watch?v=4RK4WK-s6QY&t=46s",
+    "code": "https://github.com/lashaNoz/circleSlider"
+  },
+  {
+    "id": 4,
+    "name": "Split Image Slideshow",
+    "video": "https://www.youtube.com/watch?v=IwlBrJ1-NVw&t=23s",
+    "code": "https://github.com/lashaNoz/divided-image-slideshow"
+  },
+  {
+    "id": 5,
+    "name": "Image Filter",
+    "video": "https://www.youtube.com/watch?v=0E9EkC9-KKU&t=17s",
+    "code": "https://github.com/lashaNoz/filterNavigation"
+  },
+  {
+    "id": 6,
+    "name": "Modal Box",
+    "video": "https://www.youtube.com/watch?v=D4sjzSPy25g&t=22s",
+    "code": "https://github.com/lashaNoz/modalBox"
+  },
+  {
+    "id": 7,
+    "name": "Portfolio Website",
+    "video": "https://www.youtube.com/watch?v=EzFuJ99EhG0&t=125s",
+    "code": "https://github.com/lashaNoz/portfolio"
+  },
+  {
+    "id": 8,
+    "name": "Image Gallery",
+    "video": "https://www.youtube.com/watch?v=KSHxhclbgiQ&t=7s",
+    "code": "https://github.com/lashaNoz/slideshowGallery"
+  }
+]

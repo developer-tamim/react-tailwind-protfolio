@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Figma"
+  },
+  {
+    "id": 2,
+    "name": "PhotoShop"
+  },
+  {
+    "id": 3,
+    "name": "Adobe Illustrator"
+  },
+  {
+    "id": 4,
+    "name": "Adobe XD"
+  },
+  {
+    "id": 5,
+    "name": "Sketch"
+  },
+  {
+    "id": 6,
+    "name": "Tailwind"
+  },
+  {
+    "id": 7,
+    "name": "JavaScript"
+  },
+  {
+    "id": 8,
+    "name": "ReactJS"
+  }
+]
