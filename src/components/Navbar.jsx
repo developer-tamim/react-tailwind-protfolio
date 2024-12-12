@@ -1,6 +1,9 @@
-import { FiAlignRight } from "react-icons/fi"
+import { useState } from "react"
+import { FiAlignRight, FiXCircle } from "react-icons/fi"
 
 const Navbar = () => {
+  const [nav, setNav] = useState(false)
+  const changeNav = () => setNav(!nav)
   return (
     <nav className="fixed w-full flex justify-between items-center px-5 z-50">
         {/* Logo */}
@@ -14,8 +17,10 @@ const Navbar = () => {
             <a href="#" className="hover:underline">Contact</a>
         </div>
         {/* Hamburger */}
-        <div className="hidden sm:block cursor-pointer text-gray-600 text-2xl">
-            <FiAlignRight/>
+        <div className="hidden sm:block cursor-pointer text-gray-600 text-2xl"
+        onClick={ changeNav }
+        >
+            {nav ? <FiAlignRight/>:<FiAlignRight/>}
         </div>
     </nav>
   )
