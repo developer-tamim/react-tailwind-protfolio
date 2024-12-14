@@ -14,7 +14,7 @@ const Navbar = () => {
 
       {/* Navigation */}
       <div
-        className={`cursor-pointer flex flex-col gap-y-7 text-xs font-medium text-gray-600 sm:top-0 sm:left-0 sm:h-screen sm:w-full sm:bg-orange-100/95 sm:flex-col sm:items-center sm:justify-center sm:text-3xl sm:gap-y-4 z-10 ${
+        className={`cursor-pointer flex flex-col gap-y-7 text-xs font-medium text-gray-600 sm:top-0 sm:left-0 sm:h-screen sm:w-full sm:bg-orange-100/95 sm:flex-col sm:items-center sm:justify-center sm:text-3xl sm:gap-y-4 ${
           nav ? "sm:fixed" : "sm:hidden"
         }`}
       >
