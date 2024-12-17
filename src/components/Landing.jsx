@@ -30,6 +30,8 @@ const Landing = () => {
                 <span>
                     Hello <FaHandsClapping/>
                 </span>
+                <span>I am a UI/UX Designer</span>
+                <button>Hire Me</button>
             </h1>
         </div>
     </div>
