@@ -5,8 +5,24 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const changeNav = () => setNav(!nav);
 
+  const [navColor, setNavColor] = useState(false);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 10) {
+      setNavColor(true);
+    } else {
+      setNavColor(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeNavbarColor);
+
   return (
-    <nav className="fixed w-full flex justify-between items-center px-5 z-50">
+    <nav
+      className={
+        "fixed w-full flex justify-between items-center px-5 z-50 py-3 transition-colors duration-500" +
+        (navColor && "bg-orange-100/80 shadow-md")
+      }
+    >
       {/* Logo */}
       <a href="#" className="font-bold italic text-gray-600 text-xl z-20">
         Nike Smith
