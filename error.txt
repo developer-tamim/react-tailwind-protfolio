@@ -1,0 +1,46 @@
+import data from "../data/skills.json";
+import Figma from "../assets/skills/figma.png";
+import Photoshop from "../assets/skills/photoshop.png";
+import AdobeIllustrator from "../assets/skills/adobeIllustrator.png";
+import AdobeXD from "../assets/skills/adobeXd.png";
+import Sketch from "../assets/skills/sketch.png";
+import Tailwind from "../assets/skills/tailwind.png";
+import JavaScript from "../assets/skills/javascript.png";
+import ReactJS from "../assets/skills/react.png";
+
+const Skills = () => {
+  const images = {
+    Figma,
+    Photoshop,
+    AdobeIllustrator,
+    AdobeXD,
+    Sketch,
+    Tailwind,
+    JavaScript,
+    ReactJS,
+  };
+  return (
+    <div className="my-12 px-12">
+      {/* Test for skills */}
+      <div>
+        <h1>Skills</h1>
+        <p>What I know best</p>
+      </div>
+      {/* Skill-set */}
+      <div>
+        {data.map((tech, i) => {
+          return (
+            <div key={tech.id}>
+              <img src={images[i]} alt={tech.name} width={60} />
+              <h5>{tech.name}</h5>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+export default Skills;
+
+============================================================================================
