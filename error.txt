@@ -25,7 +25,8 @@ const Skills = () => {
       <div>
         <h1>Skills</h1>
         <p>What I know best</p>
-      </div>
+ 
+     </div>
       {/* Skill-set */}
       <div>
         {data.map((tech, i) => {
@@ -42,5 +43,4 @@ const Skills = () => {
 };
 
 export default Skills;
-
 ============================================================================================
