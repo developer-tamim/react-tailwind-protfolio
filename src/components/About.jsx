@@ -5,7 +5,7 @@ import { FiFileText } from "react-icons/fi";
 const About = () => {
   return (
     <>
-      <div className="flex justify-around gap-x-5 py-20 md:flex-col md:items-center md:gap-y-10">
+      <div id="about" className="flex justify-around gap-x-5 py-20 md:flex-col md:items-center md:gap-y-10">
         {/* Designer image*/}
         <img src={myPic} alt="Designer" className="w-[300px] rounded-md sm:w-[270px]" />
 

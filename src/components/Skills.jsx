@@ -20,7 +20,7 @@ const Skills = () => {
     ReactJS,
   ];
   return (
-    <div className="my-12 px-12">
+    <div id="skills" className="my-12 px-12">
       {/* Test for skills */}
       <div className="flex flex-col gap-y-2 mb-2 md:items-center">
         <h1 className="text-2xl font-semibold uppercase">Skills</h1>

@@ -24,7 +24,7 @@ const Navbar = () => {
       }
     >
       {/* Logo */}
-      <a href="#" className="font-bold italic text-gray-600 text-xl z-20">
+      <a href="#home" className="font-bold italic text-gray-600 text-xl z-20" onClick={changeNav}>
         Nike Smith
       </a>
 
@@ -34,19 +34,19 @@ const Navbar = () => {
           nav ? "sm:fixed" : "sm:hidden"
         }`}
       >
-        <a href="#" className="hover:underline">
+        <a href="#home" className="hover:underline" onClick={changeNav}>
           Home
         </a>
-        <a href="#" className="hover:underline">
+        <a href="#about" className="hover:underline" onClick={changeNav}>
           About
         </a>
-        <a href="#" className="hover:underline">
+        <a href="#skills" className="hover:underline" onClick={changeNav}>
           Skills
         </a>
-        <a href="#" className="hover:underline">
+        <a href="#projects" className="hover:underline" onClick={changeNav}>
           Projects
         </a>
-        <a href="#" className="hover:underline">
+        <a href="#contact" className="hover:underline" onClick={changeNav}>
           Contact
         </a>
       </div>

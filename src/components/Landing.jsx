@@ -4,7 +4,7 @@ import Video from "../assets/bg.mp4";
 
 const Landing = () => {
   return (
-    <div className="h-screen w-full flex justify-center items-center">
+    <div id="home" className="h-screen w-full flex justify-center items-center">
       {/* Bg video */}
       <video
         src={Video}
